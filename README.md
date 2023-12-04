@@ -6,9 +6,7 @@
 ## 配置环境
 `conda env create -f requirements.yaml`
 
-可能会涉及到库不全:
-
-安装polars
+安装polars（静态需要单独装）
 
 `conda install -c conda-forge polars`
 
@@ -22,5 +20,5 @@ test.ipynb文件包含使用系统的完整回测过程，具体操作细节可�
 
 **./mysystem**  为回测系统，包含引擎、策略模板和工具包
 
-*建议使用conda进行环境配置*
+建议使用conda进行环境配置，运行过程中缺哪个模块，装哪个模块，最新版本即可。
 
