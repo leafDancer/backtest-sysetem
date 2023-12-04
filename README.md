@@ -5,8 +5,11 @@
 
 ## 配置环境
 `conda env create -f requirements.yaml`
+
 可能会涉及到库不全
+
 -polars
+
 `conda install -c conda-forge polars`
 
 ## 运行程序
