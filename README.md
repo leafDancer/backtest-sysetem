@@ -6,7 +6,7 @@
 ## 配置环境
 `conda env create -f requirements.yaml`
 
-安装polars（静态需要单独装）
+安装polars
 
 `conda install -c conda-forge polars`
 
